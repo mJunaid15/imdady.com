@@ -1,0 +1,216 @@
+
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pricing-container .pricing-table {
+  position: relative;
+  margin-bottom: 15px;
+}
+.pricing-container .pricing-table .tb-border:before {
+  content: "";
+  display: block;
+  height: 5px;
+  top: 0;
+  left: 0;
+  right: 100%;
+  background: #875ba4;
+  position: absolute;
+  z-index: 1;
+  transition: right 0.2s linear 0.6s;
+}
+.pricing-container .pricing-table .tb-border:after {
+  content: "";
+  display: block;
+  height: 5px;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background: #875ba4;
+  position: absolute;
+  z-index: 1;
+  transition: left 0.2s linear 0.2s;
+}
+.pricing-container .pricing-table .lr-border:before {
+  content: "";
+  display: block;
+  width: 5px;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+  background: #d6b1ff;
+  position: absolute;
+  z-index: 1;
+  transition: top 0.2s linear;
+}
+.pricing-container .pricing-table .lr-border:after {
+  content: "";
+  display: block;
+  width: 5px;
+  top: 0;
+  right: 0;
+  bottom: 100%;
+  background: #d6b1ff;
+  position: absolute;
+  z-index: 1;
+  transition: bottom 0.2s linear 0.4s;
+}
+.pricing-container .pricing-table:hover .pricing-inner {
+  background: #fff;
+  color: #000;
+}
+.pricing-container .pricing-table:hover .tb-border:before {
+  right: 0;
+  transition: right 0.2s linear;
+}
+.pricing-container .pricing-table:hover .tb-border:after {
+  left: 0;
+  transition: left 0.2s linear 0.4s;
+}
+.pricing-container .pricing-table:hover .lr-border:before {
+  top: 0;
+  transition: top 0.2s linear 0.6s;
+}
+.pricing-container .pricing-table:hover .lr-border:after {
+  bottom: 0;
+  transition: bottom 0.2s linear 0.2s;
+}
+.pricing-container .pricing-table:hover button {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.pricing-container .pricing-inner {
+  background: linear-gradient( #44e5f7 ,#aa60ff) ;
+  text-align: center;
+  color: #fff;
+  -webkit-transition: background 0.4s ease-in, color 0.4s ease-in;
+}
+.pricing-container .pricing-inner .plan-name {
+  padding: 25px 15px 0 15px;
+  position: relative;
+}
+.pricing-container .pricing-inner .plan-price-container {
+  overflow: hidden;
+}
+.pricing-container .pricing-inner .plan-price {
+  font-size: 46px;
+  margin: 0;
+  font-weight: 800;
+}
+.pricing-container .pricing-inner .plan-desc {
+  font-size: 12px;
+  margin-bottom: 15px;
+  padding: 0 20px 25px;
+}
+.pricing-container .pricing-inner button {
+  font-size: 13px;
+  border-radius: 0;
+  border: none;
+  padding: 15px 15px;
+  margin: 0 15px 25px;
+  background: #875ba4;
+  color: white;
+  opacity: 0;
+  transform: translate3d(0, -15px, 0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+@-webkit-keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+@-webkit-keyframes moveUp {
+  50% {
+    transform: translate3d(0, -100%, 0);
+  }
+  51% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  52% {
+    opacity: 1;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes moveUp {
+  50% {
+    transform: translate3d(0, -100%, 0);
+  }
+  51% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  52% {
+    opacity: 1;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+/* accordian css start  */
+.btn-link{
+  text-decoration: none !important;
+    display: flex;
+    align-items: center;
+   color: #000 !important;
+   font-size: 22px !important;
+   
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #fff !important;
+
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+
+.btn-link::before{
+  padding: 10px;
+  content: "+";
+  transition: transform 0.2s ease-in-out;
+ 
+
+
+}
+
+.btn-link:not(.collapsed)::before {
+  content: "-";
+ 
+  transform: rotate(
+180deg);
+}
+
+
+
+
+/* accordian css end  */

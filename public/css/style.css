@@ -1,0 +1,1156 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap");
+* {
+  font-family: "Manrope", sans-serif;
+}
+.overflowhidderAOS {
+  overflow-x: hidden;
+}
+
+/* navbar css start */
+.activeNav {
+  color: #580359 !important;
+  font-weight: 700 !important;
+  size: 16px !important;
+  line-height: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #18191f;
+  font-weight: 700 !important;
+  size: 16px !important;
+  line-height: 20px;
+}
+.shadow {
+  box-shadow: 0px 1px 0px #e5e9f281;
+}
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 28px;
+}
+/* navbar css end  */
+
+/* banner section css  */
+
+.bg {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+
+  background-image: url("../img/BG.png") !important;
+  background-size: 100% 100% !important;
+}
+.leftband {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.rightBand {
+  position: absolute;
+  bottom: 25%;
+  right: 0;
+}
+.cirler {
+  position: absolute;
+  right: 30%;
+  bottom: 10%;
+  z-index: -1;
+}
+/* .leftband{
+  position: absolute;
+  bottom: 50px;
+
+} */
+.bgHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  color: #18191f;
+}
+.bgInput {
+  width: 396px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #c38ffc;
+  border: none;
+  border-bottom: 1px solid #c38ffc;
+  background: transparent;
+  outline: none;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c38ffc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c38ffc;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c38ffc;
+}
+
+.bgBtn {
+  color: white;
+  background: #875ba4;
+  border-radius: 5px;
+  width: 146px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  /* line-height: 30px; */
+}
+.bgWidth{
+  width: 90%;
+}
+
+.bglaptop {
+  width: 543px !important;
+  height: 355px !important;
+  /* transform: translateX(-19%); */
+}
+.bg-alignment {
+  transform: translateY(25%);
+  /* background-color: rebeccapurple; */
+}
+
+/* banner section css end  */
+.brder {
+  width: 100%;
+  height: 1px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+
+.headchoose {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 64px;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.headchoosePara {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.infoHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.infoPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+/* content section start   */
+
+.mainContendiv {
+  width: 540px;
+  /* height: 540px; */
+  background: #f1e4ff;
+  border-radius: 8px;
+}
+.mainContendiv2 {
+  width: 540px;
+
+  margin: auto 0;
+}
+.contentHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.contentPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.contenUl {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: "liga" off;
+  color: #8c30f5;
+  padding-left: 0;
+}
+.benefit {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.benefitHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.benefitPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.fashionHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.fashionPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.getinHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.getInTochHeading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.getInTochPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+/* content section end   */
+
+/* footer start  */
+.bg-footer {
+  background: #0b0d17;
+}
+.copyrightPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #d9dbe1;
+}
+.linkHead {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: "liga" off;
+  color: #d6b1ff;
+}
+.linkPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "liga" off;
+  color: #eeeff4;
+}
+.badge-secondary {
+  color: #2ec5ce;
+  font-style: italic;
+
+  background: none;
+}
+/* footer end  */
+
+/* product page css start  */
+
+.numImg {
+  background-image: url("../img/Number.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0%;
+}
+.numImg2 {
+  background-image: url("../img/2num.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0%;
+}
+.numImg2 h1 {
+  font-weight: 600;
+
+  color: #2ec5ce;
+}
+.numImg3 {
+  background-image: url("../img/3num.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0%;
+}
+.mainContendivProduct {
+  width: 487px;
+  height: 331px;
+  /* height: 540px; */
+  background: rgba(88, 3, 89, 0.33);
+  border-radius: 8px;
+  position: relative;
+}
+.forPos {
+  position: absolute;
+  width: 421px;
+  height: 330px;
+  right: 7%;
+  top: 56px;
+}
+
+.verticleLine {
+  width: 80%;
+  height: 1px;
+  margin: 100px auto;
+  margin-bottom: 200px;
+  background: #c4c4c4;
+}
+.bgMoblie {
+  background-color: #f1e4ff;
+  height: 388px;
+  left: calc(50% - 1110px / 2);
+  top: calc(50% - 388px / 2);
+  background: #f1e4ff;
+  border-radius: 16px;
+}
+.bgmobileHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: "liga" off;
+  color: #9b51e0;
+}
+
+.bgmobilePara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #333333;
+}
+
+.bgmobileH5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: "liga" off;
+  color: #9b51e0;
+}
+
+.checkPos {
+  width: 308px;
+  height: 521px;
+  position: absolute;
+  right: 10%;
+  top: -20%;
+}
+.margintop {
+  margin-top: 200px !important;
+}
+/* product page css end  */
+
+/* servicess scc start  */
+
+.servicebox {
+  position: absolute;
+  right: 15%;
+  width: 458px;
+  height: 439px;
+  background: #ebb3ec;
+  border-radius: 15px;
+  /* position: relative; */
+}
+
+.serviceboxChild {
+  position: absolute;
+  top: 13%;
+  left: 8%;
+  width: 388px;
+  height: 379px;
+  background: rgba(88, 3, 89, 0.31);
+  border-radius: 15px;
+}
+.serviceMob {
+  position: absolute;
+
+  right: 7.2%;
+  top: 3%;
+  bottom: 3.4%;
+
+  left: 22%;
+
+  width: 250px;
+  height: 468px;
+}
+.sborder {
+  margin: 80px 0;
+}
+.headServices {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+.ourserviceBox {
+  height: 558px;
+  position: relative;
+  border-radius: 25px;
+  background: #f1e4ff;
+}
+.ourserviceboxInner {
+  position: absolute;
+  top: 5%;
+  height: 558px;
+  /* width: 1000px; */
+  z-index: -1;
+  border-radius: 25px;
+  background: #d9bff5;
+}
+.infoBox {
+  height: 200px;
+  width: 255px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+}
+.infoHeadingservice {
+  font-weight: 600;
+  font-size: 24px;
+  align-self: start;
+
+  color: #18191f;
+}
+/* servicess scc end  */
+
+/* about us css start  */
+.whoWeR {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  color: #580359;
+}
+.whoWeRPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+.ourstorydiv {
+  width: 50%;
+  height: 728px;
+  background: rgba(213, 250, 252, 0.5);
+  border-radius: 25px;
+}
+.ourstoryContent {
+  width: 50%;
+  padding-left: 30px;
+  /* background-color: red; */
+}
+.ourstoryPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+.ourstoryHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: #18191f;
+}
+.mockupParent {
+  position: relative;
+  /* background-color: #2ec5ce !important; */
+}
+.mockupCard {
+  position: absolute;
+  top: 10%;
+  transform: translate(54%, 79%);
+}
+.mockupImg {
+  position: absolute;
+  top: 10%;
+  transform: translate(17%, 50%);
+}
+/* about us css end  */
+
+/* contact us css start  */
+
+.anim1 {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  right: 0%;
+}
+.anim2 {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  right: 0%;
+}
+
+.anim3 {
+  position: absolute;
+  top: 58%;
+  left: 7%;
+  right: 0%;
+}
+.anim4 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+.animLine {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 0%;
+}
+.contactUsContent {
+  width: 50%;
+}
+
+.creativeBlock {
+  /* position: absolute;
+  top: -25%;
+  right: 0%; */
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/Creative\ Block.png");
+  background-size: 100% 100%;
+}
+.whatsappDiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  height: 338px;
+  width: 314px;
+  border-radius: 25px;
+  background: rgba(160, 220, 255, 0.25);
+}
+.whatsappDiv2 {
+  width: 326px;
+  height: 540px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  background: #f1e4ff;
+  border-radius: 25px;
+}
+.contactUSdiv {
+  width: 50%;
+  height: 648px;
+  /* background: rgba(213, 250, 252, 0.5); */
+  border-radius: 25px;
+}
+.whatsappImg {
+  position: absolute;
+  right: 10%;
+  top: 9%;
+}
+.foamHeading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  color: #580359;
+}
+
+.formSize{
+ 
+font-size: 16px;
+line-height: 24px;
+color: #626262;
+}
+
+.letter {
+  /* display: inline-block; */
+  opacity: 0 ;
+}
+
+.div1 {
+  display: inline-block;
+ 
+}
+
+/* contact us css end  */
+
+/* media qures start  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .overflowhidderAOS {
+    overflow-x: hidden !important;
+  }
+  .noneAOS {
+    overflow: hidden !important;
+  }
+  .test {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .bg {
+    height: 55vh;
+  }
+  .bg-alignment {
+    transform: translateY(0%);
+    /* background-color: rebeccapurple; */
+  }
+  .bgHeading {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 42px;
+  }
+  .bgInput {
+    width: 217px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .bgBtn {
+    width: 123px;
+    height: 45px;
+    font-size: 16px;
+    margin-left: 0px !important;
+    margin-top: 10px;
+  }
+  .bglaptop {
+    margin-top: 10px;
+    width: 290px !important;
+    height: 160px !important;
+    transform: translateX(0%) !important;
+  }
+  .headchoose {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .infoHeading {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .mainContendiv2 {
+    margin: 10px auto;
+  }
+  .contentHeading {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .contenUl {
+    font-size: 17px;
+  }
+  .benefit {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .mt-none {
+    margin-top: 5px !important;
+    margin-left: 0 !important;
+  }
+  .m-none {
+    padding: 0 !important;
+  }
+
+  .benefitHeading {
+    font-size: 17px;
+    line-height: 8px;
+  }
+  .fashionHeading {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .getinHeading {
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0 !important;
+  }
+
+  /* products page media quries start  */
+  .forPos {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 4%;
+    top: 53px;
+  }
+  .mainContendiv2 {
+    width: 333px;
+  }
+  .verticleLine {
+    margin: 6px auto;
+    margin-bottom: 0px !important;
+  }
+  .bgMoblie {
+    height: 870px;
+  }
+  .checkPos {
+    height: 400px;
+    position: absolute;
+    right: 10%;
+    top: -45%;
+  }
+  .margintop {
+    margin-top: 30px !important;
+  }
+
+  /* products page media quries end  */
+
+  /* service css start  */
+  .servicebox {
+    margin-top: 10px;
+    right: 0%;
+    width: 100%;
+    height: 276px;
+  }
+  .serviceboxChild {
+    top: 10%;
+    left: 5.5%;
+    width: 90%;
+    height: 238px;
+  }
+  .serviceMob {
+    width: 170px;
+    height: 301px;
+  }
+  .headServices {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center !important;
+  }
+  .infoBox {
+    height: 140px;
+    width: 215px;
+    margin-top: 10px;
+  }
+  .infoHeadingservice {
+    font-size: 18px;
+    align-self: center;
+  }
+  .ourserviceBox {
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .ourserviceboxInner {
+    height: 925px;
+    /* width: 1000px; */
+    z-index: -1;
+  }
+
+  /* service css end  */
+  /* about us css start  */
+  .ourstoryRes {
+    flex-direction: column !important;
+  }
+  .bgstartup {
+    margin-top: -34px;
+    width: 279px !important;
+    height: 160px !important;
+    transform: translateX(0%) !important;
+  }
+  .ourstorydiv {
+    width: 100%;
+    height: 400px;
+  }
+  .mockupImg {
+    position: absolute;
+    top: 14%;
+    width: 200px;
+    transform: translate(16%, 47%);
+  }
+  .mockupCard {
+    position: absolute;
+    top: 10%;
+    transform: translate(64%, 107%);
+    width: 200px;
+  }
+  .ourstoryContent {
+    width: 100%;
+    padding-left: 10px;
+    /* background-color: red; */
+  }
+  .ourstoryPara {
+    max-height: 350px;
+    text-align: center;
+  }
+  .ourstoryHeading {
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* about us css end  */
+  /* contact us css start  */
+
+  .creativeBlock {
+    width: 0;
+  
+}
+.contactUsContent {
+  width: 100%;
+}
+.bgContactUS{
+  height: 51vh;
+
+}
+.bg-alignmentContactUS{
+  transform: translateY(16%);
+
+}
+.animLine {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 0%;
+  width: 145px;
+  height: 2px;
+}
+.anim1 {
+  position: absolute;
+  top: -11%;
+  left: -8%;
+  right: 0%;
+  width: 145px;
+  height: 2px;
+}
+.anim2 {
+  position: absolute;
+  top: -25%;
+  left: 64%;
+  right: 0%;
+}
+.anim3 {
+  position: absolute;
+  top: 58%;
+  left: -21%;
+  right: 0%;
+}
+.anim4 {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+}
+.contactUSdiv {
+  width: 100%;
+  height: 361px;
+  /* background: rgba(213, 250, 252, 0.5); */
+  border-radius: 25px;
+}
+.whatsappImg {
+  position: absolute;
+  right: 23%;
+  top: 16%;
+  width: 210px;
+  height: 260px;
+}
+.whatsappDiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 208px;
+  width: 215px;
+  border-radius: 25px;
+  background: rgba(160, 220, 255, 0.25);
+}
+.whatsappDiv2 {
+  width: 217px;
+  height: 318px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #f1e4ff;
+  border-radius: 25px;
+}
+.foamHeading {
+  margin-top: 10px;
+  font-size: 26px;
+  line-height: 54px;
+ 
+}
+
+
+
+
+  /* contact us css end  */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .bg-alignment {
+    transform: translateY(5%);
+    /* background-color: rebeccapurple; */
+  }
+  .bg {
+    height: 40vh;
+  }
+  .bglaptop {
+    width: 731px !important;
+    height: 270px !important;
+    margin-top: 38px;
+  }
+  .bgBtn {
+    margin-top: 10px;
+    margin-left: 0px !important;
+  }
+
+  /* about us css start  */
+  .ourstorydiv {
+    /* width: 50%; */
+    height: 545px;
+  }
+  .mockupImg {
+    top: 0%;
+    transform: translate(11%, 53%) !important;
+    width: 230px;
+  }
+  .mockupCard {
+    top: 10%;
+    transform: translate(44%, 101%) !important;
+    width: 250px;
+  }
+  .ourstoryPara {
+    max-height: 476px;
+  }
+  /* about us css end  */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fashionHeading {
+   
+    font-size: 30px;
+    line-height: 51px;
+    margin-top: 44px;
+}
+  
+  .bgBtn {
+ 
+    width: 196px;
+   
+    margin-top: 10px;
+    margin-left: 0px !important;
+}
+.mainContendiv2 {
+  width: 100%;
+  /* background: red; */
+  margin: auto 0;
+}
+  .bg {
+    position: relative;
+    width: 100%;
+    height: 41vh;
+    background-image: url(../img/BG.png) !important;
+    background-size: 100% 100% !important;
+  }
+
+  /* service page css start  */
+  .servicebox {
+    right: 3%;
+    width: 360px;
+    height: 375px;
+  }
+  .serviceboxChild {
+    top: 6%;
+    left: 7%;
+    width: 308px;
+    height: 346px;
+  }
+  .serviceMob {
+    left: 12%;
+    width: 250px;
+    height: 430px;
+  }
+  /* service page css start  */
+  /* contact us css start  */
+  .creativeBlock {
+    width: 70%;
+    height: 435px;
+    background-image: url(../img/Creative\ Block.png);
+    background-size:cover;
+}
+.whatsappImg {
+  width: 225px;
+  position: absolute;
+  right: 10%;
+  top: 16%;
+}
+.whatsappDiv {
+ 
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  background: rgba(160, 220, 255, 0.25);
+}
+.whatsappDiv2 {
+  width: 200px;
+  height: 294px;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+  background: #f1e4ff;
+  border-radius: 25px;
+}
+.contactUSdiv {
+  width: 50%;
+  height: 457px;
+  /* background: rgba(213, 250, 252, 0.5); */
+  border-radius: 25px;
+}
+.foamHeading {
+ 
+  font-size: 27px;
+  
+}
+
+.anim11 {
+  width: 60px;
+  height: 50px !important;
+}
+.anim2 {
+  position: absolute;
+  top: 49%;
+  left: 35%;
+  right: 0%;
+}
+.anim22 {
+  width: 47px;
+  height: 138px !important;
+}
+
+.anim33 {
+  width: 154px;
+  height: 40px !important;
+}
+.anim4 {
+  position: absolute;
+  top: 77%;
+  left: 5%;
+}
+.anim44 {
+  width: 100px;
+  height: 80px !important;
+}
+.bgHeading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 65px;
+  color: #18191f;
+}
+
+.animLine {
+  position: absolute;
+  top: 17%;
+  left: 8%;
+  right: 0%;
+}
+.bgWidth {
+    width: 92%;
+}
+
+  /* contact us css start  */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1282px) {
+  
+  .bgInput {
+    width: 331px;
+   
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* media quries end  */
