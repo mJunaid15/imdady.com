@@ -425,7 +425,8 @@ let year =document.getElementById('customRadioInline2');
         totals.innerHTML = `${number} sar`;
 
         let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-        let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+        let subtotal = document.getElementById("subTotal").innerHTML = `${number -28.5} sar`;
+        
 
 
 
@@ -441,7 +442,7 @@ let year =document.getElementById('customRadioInline2');
         totals.innerHTML = `${number} sar`;
 
         let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-        let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+        let subtotal = document.getElementById("subTotal").innerHTML = `${number-285} sar`;
 
 
       } else if(selectedValue == "Advance Setup" && month.checked) {
@@ -455,7 +456,7 @@ let year =document.getElementById('customRadioInline2');
            totals.innerHTML = `${number} sar`;
          
            let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-           let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+           let subtotal = document.getElementById("subTotal").innerHTML = `${number-36} sar`;
              
                
           }else if(selectedValue == "Advance Setup" && year.checked) {
@@ -469,7 +470,7 @@ let year =document.getElementById('customRadioInline2');
            totals.innerHTML = `${number} sar`;
          
            let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-           let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+           let subtotal = document.getElementById("subTotal").innerHTML = `${number -360} sar`;
              
                
           }else if(selectedValue == "Easy Go" && month.checked) {
@@ -483,7 +484,7 @@ let year =document.getElementById('customRadioInline2');
            totals.innerHTML = `${number} sar`;
          
            let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-           let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+           let subtotal = document.getElementById("subTotal").innerHTML = `${number-18} sar`;
              
                
           } else if(selectedValue == "Easy Go" && year.checked) {
@@ -497,7 +498,7 @@ let year =document.getElementById('customRadioInline2');
            totals.innerHTML = `${number} sar`;
          
            let vat = document.getElementById('vat').innerHTML = `${percent} sar`;
-           let subtotal = document.getElementById("subTotal").innerHTML = `${number} sar`;
+           let subtotal = document.getElementById("subTotal").innerHTML = `${number-178.5} sar`;
              
                
           }  else {
