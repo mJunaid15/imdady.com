@@ -1,0 +1,1 @@
+[20-Jan-2020 03:47:25 America/Chicago] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'saboor'@'localhost' (using password: YES) in /home1/methof0j/dastarkhwanlive.com/pos/install/install.php on line 261
